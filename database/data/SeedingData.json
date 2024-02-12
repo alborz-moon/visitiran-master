@@ -1,0 +1,111 @@
+{
+    "brands": [
+        "آریان نخ",
+        "کیکی رایکی",
+        "سامسونگ",
+        "ایسوس",
+        "آیفون",
+        "لنوو",
+        "السانا",
+        "شهر حجاب",
+        "سکو",
+        "شایان صنعت"
+    ],
+    "categories": [
+        {
+            "name": "پوشاک",
+            "img": "clothing.png",
+            "alt": "cloth",
+            "priority": 1,
+            "sub_categories": [
+                {
+                    "name": "پوشاک مردانه",
+                    "img": "men_cloth.jpg",
+                    "priority": 2,
+                    "features": ["سایز", "طرح"],
+                    "products": [
+                        {
+                            "name": "تی شرت آستین کوتاه",
+                            "description": "تست",
+                            "price": 210500,
+                            "available_count": 4,
+                            "is_in_top_list": true,
+                            "img": "shirt1.jpg",
+                            "priority": 1,
+                            "brand": "آریان نخ",
+                            "off": 20,
+                            "features": [
+                                {
+                                    "key": "سایز",
+                                    "value": "S, M, L"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "تی شرت آستین بلند",
+                            "description": "تست تی شرت آستین بلند",
+                            "price": 223000,
+                            "priority": 2,
+                            "brand": "کیکی رایکی",
+                            "img": "shirt2.jpg",
+                            "features": [
+                                {
+                                    "key": "سایز",
+                                    "value": "M, L, XL"
+                                },
+                                {
+                                    "key": "طرح",
+                                    "value": "ساده"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "پوشاک زنانه",
+                    "img": "women_cloth.png",
+                    "features": ["سایز", "طرح"],
+                    "priority": 1,
+                    "products": []
+                }
+            ]
+        },
+        {
+            "name": "لوازم دیجیتال",
+            "img": "electronics.jpg",
+            "priority": 3,
+            "sub_categories": [
+                {
+                    "name": "لپ تاپ",
+                    "img": "laptop.png",
+                    "features": ["CPU", "RAM", "Cache", "سایز صفحه نمایش"],
+                    "products": [],
+                    "alt": "laptop",
+                    "priority": 1
+                },
+                {
+                    "name": "موبایل",
+                    "img": "mobile.jpg",
+                    "features": ["RAM", "باتری", "کیفیت دوربین جلو"],
+                    "products": [],
+                    "priority": 2
+                }
+            ]
+        },
+        {
+            "name": "لوازم خودرو",
+            "img": "car.jpg",
+            "priority": 2,
+            "sub_categories": [
+                {
+                    "name": "لوازم یدکی خودرو و موتور سیکلت",
+                    "img": "car_equip.jpg",
+                    "features": ["نوع خودرو"],
+                    "alt": "car",
+                    "priority": 1,
+                    "products": []
+                }
+            ]
+        }
+    ]
+}
